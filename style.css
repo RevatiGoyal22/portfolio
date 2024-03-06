@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 40px auto;
+}
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border-radius: 5px;
+}
+
+#start {
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.name {
+  font-size: 80px;
+  font-weight: bold;
+}
+.intro {
+  font-size: 24px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.primary-link {
+  padding: 20px 18px;
+  margin: 0 12.5px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondary-link {
+  padding: 20px 18px;
+  margin: 0 35px;
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.navContainer{
+  width: 100%;
+}
+.nav-style {
+  padding:0.5rem 2rem;
+
+}
+.projectDisplay {
+  margin: 80px auto; 
+}
+@media (min-width: 762px) {
+  
+  img {
+    height: 90vh !important;;
+  }
+}
+@media(max-width: 1000px){
+  .container {
+
+    max-width: 90%;
+  }
+}
+
+.prj {
+  margin: 5vh auto;
+}
+.page-info {
+  padding: 60px ; 
+  
+}
+h1 {
+  text-align: left;
+}
+.webLink {
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
